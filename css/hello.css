@@ -1,0 +1,84 @@
+body {
+  background-color: #edf2f7;
+  font-family: arial;
+
+}
+
+header,
+.card-deck,
+footer {
+  width: 960px;
+  background-color: #fff;
+  margin: 40px auto;
+}
+
+header,
+footer {
+  /*padding:  40px;
+  width: 880px;*/
+}
+
+header {
+  text-align: center;
+  height: 365px;
+}
+
+h1,
+span {
+  color: #63b3ed;
+}
+
+h1,
+h2{
+  margin: 0;
+}
+
+h1 {
+  font-size: 125px;
+  padding-top: 60px;
+}
+
+
+h2 {
+  color: #8594ad;
+  font-size: 32px;
+  padding-top: 40px;
+}
+
+.card-deck h2,
+ul {
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  color: #68778d;
+  font-size: 18px;
+  padding: 10px;
+}
+
+h2 a {
+  background-color: #dd6b20 ;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.card-deck {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-deck section {
+  width: 300px;
+}
+
+footer p {
+  font-style: italic;
+  color: #68778d;
+  padding: 20px;
+}
